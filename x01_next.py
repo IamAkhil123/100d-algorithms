@@ -9,6 +9,17 @@ False indicates it should be skipped, True indicates it should not be skipped.
 Create a funtion that receives 2 input paramters, the curValue and the list Data
 Return the index of the next item to be used
 """
+x = 1
+y = [1,2,3,4,5,]
+
+def important(x,y):
+ del y[x]
+
+z = important(x,y)
+print(z)
+
+
+
 
 def next(current , myList):
   '''
